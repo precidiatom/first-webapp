@@ -51,9 +51,9 @@ app.use((request, response, next) => {
 });
 
 //////////[un]comment for maintainence purposes
-app.use((request, response, next) => {
-	response.render('maintainence.hbs');
-});
+// app.use((request, response, next) => {
+// 	response.render('maintainence.hbs');
+// });
 
 app.get('/', (request, response) => {
 
